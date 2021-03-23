@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Fonts  */
+@font-face {
+	font-family: 'PTSans';
+	src: url('./assets/fonts/PTSans-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PTSans';
+	src: url('./assets/fonts/PTSans-Bold.ttf');
+	font-weight: bold;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Variaveis */
+:root {
+  --black: #010101;
+  --yellow: #fcdb00;
+  --textBlack: #313841;
+}
+
+/*Config Padrão*/
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{ font-family: 'PTSans' , 'Segoe UI'; font-weight: normal;}
+.img-response{max-width: 100%;}
+
+@media (min-width: 560px){
+	
 }
