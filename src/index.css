@@ -22,8 +22,8 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
 body{ font-family: 'PTSans' , 'Segoe UI'; font-weight: normal;}
 .img-response{max-width: 100%;}
-.container{margin: 0 auto; padding: 0 15px;}
 
+.container{margin: 0 auto; padding: 0 15px;}
 @media (min-width: 575px){
 	/* .container{margin: 0 auto; padding: 0 15px;} */
 }
@@ -31,8 +31,6 @@ body{ font-family: 'PTSans' , 'Segoe UI'; font-weight: normal;}
 	.container{max-width: 748px;}
 }
 @media (min-width: 992px){
-	.container{max-width: 972px;}
+	.container{max-width: 925px;}
 }
-@media (min-width: 1200px){
-	.container{max-width: 1140px;}
-}
+

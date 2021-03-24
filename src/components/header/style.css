@@ -25,15 +25,16 @@ header{ background: var(--yellow)}
 .menu{width: 0; overflow: auto; background: var(--yellow); transition: width 300ms; position: absolute; right: 0; left: 0;}
 .menu.active{width: 100%;}
 .menu > ul > li{list-style-type: none; padding: 10px 0; text-align: center;}
-.menu > ul > li > a{ font-size: 20px;font-weight: bold;}
+.menu > ul > li > a{ font-size: 20px;}
+.menu > ul > li > a.active{font-weight: bold;}
 
 @media (min-width: 720px){
-	.header{display: flex; justify-content: space-between; align-content: center; height: 190px;}
+	.header{display: flex; justify-content: space-between; align-content: center; height: 120px;}
 	/*Nav menu*/
 	.menu{width: auto; position: static; background: transparent}
 	.menu > ul {display: flex;}
-	.menu > ul > li { padding: 77px 0; margin-left: 65px;}
-	.menu > ul > li > a{ font-size: 1.7em; font-weight: bold;}
+	.menu > ul > li { padding: 45px 0; margin-left: 65px;}
+	.menu > ul > li > a{ font-size: 1.3em; }
 	
 	/*Menu Burger*/
 	.menu-burger{display: none;}
@@ -42,7 +43,7 @@ header{ background: var(--yellow)}
 	.flex-menu-mobile{height: auto;}
 
 	/*Logo*/
-	.logo > img { width: 85px; }
+	.logo > img { width: 50px; }
 	.logo > span{ font-size: 1.8em; }
 }
 @media (min-width: 575px){
