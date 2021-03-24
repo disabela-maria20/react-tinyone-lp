@@ -1,0 +1,17 @@
+[33mcommit 043f9acaa2c8bed75b55af1ffff8ec64add8e7f8[m[33m ([m[1;36mHEAD -> [m[1;32mhome[m[33m, [m[1;31morigin/menu[m[33m, [m[1;32mmenu[m[33m)[m
+Author: Isabela Maria <isabela10014@hotmail.com>
+Date:   Tue Mar 23 17:11:04 2021 -0300
+
+    Menu ok
+
+[33mcommit 577866056f4d7e7fe27c4ec8ee97515527e787eb[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Isabela Maria <isabela10014@hotmail.com>
+Date:   Mon Mar 22 23:22:05 2021 -0300
+
+    Menu
+
+[33mcommit 0f99e96655e67f391103a7b23910f76cb4ff7eaf[m
+Author: Isabela Maria <isabela10014@hotmail.com>
+Date:   Mon Mar 22 18:49:36 2021 -0300
+
+    Initialize project using Create React App
