@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Footer from './components/footer/footer';
 import Header from './components/header/header';
 import Home from './components/home/home';
-import Newsletter from './components/newsletter/newsletter';
 import Page from './components/page/page';
 import './index.css';
 
@@ -11,7 +11,7 @@ ReactDOM.render(
    <Header/>
    <Home/>
    <Page/>
-   <Newsletter/>
+   <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,24 @@
+/*Footer*/
+footer{ background-color: var(--black);}
+
+/*Redes Sociais*/
+.redesSociais {display: flex; justify-content: center; padding: 10px 0 20px;}
+.redesSociais li{list-style-type: none; margin-right: 20px;}
+.redesSociais li .iconFooter{ color: var(--yellow); font-size: 2.1em; margin: 40px 0;}
+
+/*Grid Footer*/
+.gridFooter{display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; gap: 25px 0px; padding-bottom: 25px;}
+
+/*Grid Item*/
+.gridFooter .itemFooter {text-align: left;}
+.gridFooter .itemFooter > li {color: #fff ; list-style-type: none; transition: all .4s;}
+.gridFooter .itemFooter > li:hover{opacity: .7;}
+.gridFooter .itemFooter > li a{ color: #fff; text-decoration: none; transition: all .4s;}
+.gridFooter .itemFooter > li a:hover{opacity: .7;}
+
+
+@media (min-width: 768px){
+	/*Grid*/
+	.gridFooter {grid-template-columns: auto auto auto auto auto; gap: 40px}
+	.redesSociais {padding: 10px 0 50px;}
+}

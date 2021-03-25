@@ -1,0 +1,29 @@
+/*Newsletter*/
+.titleNewsletter {text-align: center; margin: 30px 0 10px;}
+.titleNewsletter h2 {color: var( --yellow); font-size: 2em; padding-top: 50px;}
+.titleNewsletter p {color: #898989; font-size: 1em; line-height: 22px; padding: 10px 0 20px;}
+
+/*Form*/
+.formNewsletter .formInput{ width: 100%; height: 40px; display: block; border: none; border-radius: 5px;}
+.formNewsletter .formInput::placeholder {font-size: 1em; color: #898989 ; padding-left: 10px;}
+.formNewsletter button{background-color: var(--yellow); color: #000; display: block; margin: 20px auto; height: 40px; padding: 0 20px; font-size: 1.2em; text-transform: uppercase; border: none; border-radius: 5px;}
+
+@media (min-width: 575px){
+	.formNewsletter{ display: flex; justify-content: space-between;}
+	.formNewsletter .formInput{width: 79%;}
+	.formNewsletter button {margin: 0;}
+}
+@media (min-width: 768px){
+	/*Newsletter*/
+	.centerNewsletter{width: 600px; margin: 0 auto;}
+	.titleNewsletter h2 { padding-top: 90px;}
+	
+	/*Form*/
+	.formNewsletter{ display: flex; justify-content: space-between;}
+	.formNewsletter .formInput{width: 79%;}
+	.formNewsletter button {margin: 0;}
+	.titleNewsletter p{padding: 10px 0 30px;}
+}
+@media (min-width: 992px){
+	
+}
