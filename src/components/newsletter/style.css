@@ -5,11 +5,15 @@
 
 /*Form*/
 .formNewsletter .formInput{ width: 100%; height: 40px; display: block; border: none; border-radius: 5px;}
+.formNewsletter .formInput::-webkit-input-placeholder {font-size: 1em; color: #898989 ; padding-left: 10px;}
+.formNewsletter .formInput::-moz-placeholder {font-size: 1em; color: #898989 ; padding-left: 10px;}
+.formNewsletter .formInput:-ms-input-placeholder {font-size: 1em; color: #898989 ; padding-left: 10px;}
+.formNewsletter .formInput::-ms-input-placeholder {font-size: 1em; color: #898989 ; padding-left: 10px;}
 .formNewsletter .formInput::placeholder {font-size: 1em; color: #898989 ; padding-left: 10px;}
 .formNewsletter button{background-color: var(--yellow); color: #000; display: block; margin: 20px auto; height: 40px; padding: 0 20px; font-size: 1.2em; text-transform: uppercase; border: none; border-radius: 5px;}
 
 @media (min-width: 575px){
-	.formNewsletter{ display: flex; justify-content: space-between;}
+	.formNewsletter{ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
 	.formNewsletter .formInput{width: 79%;}
 	.formNewsletter button {margin: 0;}
 }
@@ -19,7 +23,7 @@
 	.titleNewsletter h2 { padding-top: 90px;}
 	
 	/*Form*/
-	.formNewsletter{ display: flex; justify-content: space-between;}
+	.formNewsletter{ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
 	.formNewsletter .formInput{width: 79%;}
 	.formNewsletter button {margin: 0;}
 	.titleNewsletter p{padding: 10px 0 30px;}
